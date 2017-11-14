@@ -19,12 +19,20 @@ h1, h2, h3
 a
     color: white
 
+a:hover
+    color: white
+    text-shadow: 0px 0px 5px black
+
+.app-icon
+    width: 75px
+    height: 75px
+    border-radius: 16px
+    margin-bottom: 20px
+    display: inline-block
+
 @font-face
     font-family: icons
     src: url("/fonts/fontello.ttf")
-
-#contact-section
-    padding-top: 40px
 
 [data-icon]:before
   font-family: icons
@@ -35,7 +43,7 @@ a
     width: 75%
 
 #screenshotCarousel
-    box-shadow: 0px 0px 10px black
+    box-shadow: 0px 0px 5px black
     max-width: 300px
 
 @media (max-width: 400px)
