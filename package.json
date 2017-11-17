@@ -1,8 +1,9 @@
 {
   "name": "drop-website",
   "version": "1.0.0",
-  "description": "",
+  "description": "Website of game \"drag'n'drop\".",
   "main": "index.js",
+  "repository": "https://github.com/ditrytus/drop-webstite",
   "dependencies": {
     "bootstrap": "^4.0.0-beta.2",
     "jquery": "^3.2.1",
@@ -18,6 +19,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Jakub Gruszecki",
   "license": "ISC"
 }
