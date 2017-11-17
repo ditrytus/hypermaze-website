@@ -22,6 +22,12 @@ gulp.task('html',function(){
     .pipe(connect.reload());
 });
 
+gulp.task('favicon',function(){
+  return gulp.src('./favicon/*')
+    .pipe(gulp.dest(distFolder))
+    .pipe(connect.reload());
+});
+
 gulp.task('watch', function() {
   connect.server({
     root: distFolder,
@@ -62,4 +68,4 @@ gulp.task('fonts', function() {
   .pipe(gulp.dest(distFolder + '/fonts'));
 });
 
-gulp.task('build', [ 'html', 'css', 'fonts', 'sass', 'images', 'js' ]);
+gulp.task('build', [ 'html', 'css', 'fonts', 'favicon', 'sass', 'images', 'js' ]);
