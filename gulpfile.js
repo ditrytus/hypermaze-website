@@ -33,7 +33,7 @@ gulp.task('watch', function() {
     root: distFolder,
     livereload: true
   });
-  gulp.watch([htmlPaths,sassPaths], ['html','sass']);
+  gulp.watch([htmlPaths, sassPaths], ['html','sass']);
 });
 
 gulp.task('css', function(){
