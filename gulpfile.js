@@ -58,6 +58,7 @@ gulp.task('js', function(){
 gulp.task('images', function() {
   return gulp.src([
     srcFolder + '/**/*.png',
+    srcFolder + '/**/*.PNG',
     srcFolder + '/**/*.svg'])
   .pipe(gulp.dest(distFolder + '/images'));
 });
