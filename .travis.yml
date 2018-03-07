@@ -9,5 +9,5 @@ before_script:
 script: bash ./deploy.sh
 env:
   global:
-  - ENCRYPTION_LABEL: "465e317869b8"
+  - ENCRYPTION_LABEL: "e119ee717e0b"
   - COMMIT_AUTHOR_EMAIL: "gruszecki.jakub@gmail.com"
