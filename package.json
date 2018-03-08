@@ -1,0 +1,24 @@
+{
+  "name": "drop-website",
+  "version": "1.0.0",
+  "description": "Website of game \"drag'n'drop\".",
+  "main": "index.js",
+  "repository": "https://github.com/ditrytus/drop-webstite",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.7"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-connect": "^5.0.0",
+    "gulp-sass": "^3.1.0",
+    "livereload": "^0.6.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jakub Gruszecki",
+  "license": "ISC"
+}

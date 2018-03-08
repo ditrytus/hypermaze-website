@@ -1,0 +1,80 @@
+html, body
+    background: #d8ebff
+    background-image: url("/images/background.png")
+    background-size: 100% 100%
+    background-attachment: fixed
+    height: 100%
+    width: 100%
+    display: flex;
+    align-items: center;
+    color: white
+
+@font-face
+    font-family: bowhouse
+    src: url("/fonts/Bowhouse-Regular.otf")
+
+h1, h2, h3
+    font-family: bowhouse
+
+a
+    color: white
+
+a:hover
+    color: white
+    text-shadow: 0px 0px 5px black
+
+.app-icon
+    width: 75px
+    height: 75px
+    border-radius: 16px
+    margin-bottom: 20px
+    display: inline-block
+
+.store-img
+    width: 200px
+
+.apple-badge
+    height: 53px
+    padding-left: 0px
+    margin-left: 0px
+
+#title-section
+    margin: 0px 0px 30px 0px
+
+#contact-section
+    margin-top: 30px
+    h3
+        font-weight: bold
+
+@font-face
+    font-family: icons
+    src: url("/fonts/fontello.ttf")
+
+[data-icon]:before
+  font-family: icons
+  content: attr(data-icon)
+  speak: none
+
+.container
+    width: 90%
+
+#screenshotCarousel
+    box-shadow: 0px 0px 5px black
+    max-width: 300px
+
+@media (max-width: 400px)
+    .title
+        font-size: 40pt
+
+@media (min-width: 768px)
+    #content-column
+        padding-left: 40px
+
+@media (max-width: 768px)
+
+    #content-column
+        padding-top: 40px
+        text-align: center
+
+    #screenshotCarousel
+        margin-top: 250px
