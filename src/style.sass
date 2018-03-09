@@ -10,11 +10,10 @@ html, body
     color: white
 
 @font-face
-    font-family: bowhouse
-    src: url("/fonts/Bowhouse-Regular.otf")
+    font-family: Arial
 
 h1, h2, h3
-    font-family: bowhouse
+    font-family: Arial
 
 a
     color: white
@@ -29,6 +28,7 @@ a:hover
     border-radius: 16px
     margin-bottom: 20px
     display: inline-block
+    box-shadow: 0px 0px 5px black
 
 .store-img
     width: 200px
@@ -40,6 +40,11 @@ a:hover
 
 #title-section
     margin: 0px 0px 30px 0px
+    h1
+        text-shadow: 0px 0px 10px black
+        color: lightgreen
+    h2
+        margin-top: 20px
 
 #contact-section
     margin-top: 30px
@@ -60,21 +65,29 @@ a:hover
 
 #screenshotCarousel
     box-shadow: 0px 0px 5px black
-    max-width: 300px
+    max-width: 400px
 
 @media (max-width: 400px)
     .title
         font-size: 40pt
 
-@media (min-width: 768px)
+@media (min-width: 991px)
     #content-column
         padding-left: 40px
 
-@media (max-width: 768px)
+@media (max-width: 991px)
 
     #content-column
         padding-top: 40px
         text-align: center
 
+        h1
+            margin-left: -40px
+
     #screenshotCarousel
         margin-top: 250px
+
+@media (max-width: 768px)
+    #content-column
+        h1
+            margin-left: 0px
